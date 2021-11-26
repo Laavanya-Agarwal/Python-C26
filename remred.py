@@ -2,6 +2,7 @@ import cv2
 import time
 import numpy as np
 
+# converting colors for hsv and videos
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
 output_file = cv2.VideoWriter('output.abi', fourcc, 20.0, (640, 480))
 
